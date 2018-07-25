@@ -2,7 +2,7 @@
 <html>
 <body>
 
-<form id='Editor' action='save-note.php' method='post' accept-charset='UTF-8'>
+<form id='editor' action='save.php' method='post' accept-charset='UTF-8'>
     <h1>Text Editor</h1>
     <br>
     <input type='hidden' name='submitted' id='submitted' value='1'/>
@@ -16,7 +16,6 @@
         <textarea rows="10" cols="30" type='text' name='content' maxlength="300" required></textarea>
         <br>
         <input type="submit" value="SAVE">
-        </input>
     </div>
 </form>
 <br>
