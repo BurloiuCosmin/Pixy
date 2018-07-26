@@ -33,7 +33,6 @@ function save_note( $data ) {
         $notes[] = $data;
     }
 
-    //Adaugam datele noi la array-ul nostru
 
 
     //Dam overwrite fisierului ce contine doar array-urile cu notes vechi pentru a adauga arrayul ce contine si pe cel nou

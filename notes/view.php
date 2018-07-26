@@ -26,7 +26,7 @@ function viewnotes($data){ ?>
                 <td><?php echo date('Y/m/d H:i:s', $line['dateCreated']); ?></td>
                 <td><?php echo date('Y/m/d H:i:s', $line['dateModified']); ?></td>
                 <td>
-                    <a href="http://pixy.local/notes/view.php?note_id=<?php echo $line['id']; ?>">View</a>&nbsp;|&nbsp;
+                    <a href="http://pixy.local/notes/view_note.php?note_id=<?php echo $line['id']; ?>">View</a>&nbsp;|&nbsp;
                     <a href="http://pixy.local/notes/edit.php?note_id=<?php echo $line['id']; ?>">Edit</a>&nbsp;|&nbsp;
                     <a href="http://pixy.local/notes/delete.php?note_id=<?php echo $line['id']; ?>">Delete</a>
                 </td>

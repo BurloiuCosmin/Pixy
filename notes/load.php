@@ -17,7 +17,6 @@ function load_note( $id ) {
             return $note;
         }
     }
-
     return false;
 }
 
@@ -26,15 +25,6 @@ function load_note( $id ) {
  * @return array|mixed|object
  */
 
-function loadnote($id ){
-    $notes = loadnotes();
-
-    if ( ! empty( $notes[ $id ] ) ) {
-        return $notes[ $id ];
-    }
-
-    return false;
-}
 
 
 
